@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021095761EA0934A00B91226 /* AnimUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021095751EA0934A00B91226 /* AnimUtils.swift */; };
+		025E11FF1E9FB2AA00E3548E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E11FE1E9FB2AA00E3548E /* AppDelegate.swift */; };
+		025E12011E9FB2AA00E3548E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E12001E9FB2AA00E3548E /* ViewController.swift */; };
+		025E12041E9FB2AA00E3548E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025E12021E9FB2AA00E3548E /* Main.storyboard */; };
+		025E12061E9FB2AA00E3548E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025E12051E9FB2AA00E3548E /* Assets.xcassets */; };
+		025E12091E9FB2AA00E3548E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025E12071E9FB2AA00E3548E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021095751EA0934A00B91226 /* AnimUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimUtils.swift; sourceTree = "<group>"; };
+		025E11FB1E9FB2AA00E3548E /* HowlTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025E11FE1E9FB2AA00E3548E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025E12001E9FB2AA00E3548E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		025E12031E9FB2AA00E3548E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025E12051E9FB2AA00E3548E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025E12081E9FB2AA00E3548E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025E120A1E9FB2AA00E3548E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025E11F81E9FB2AA00E3548E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025E11F21E9FB2AA00E3548E = {
+			isa = PBXGroup;
+			children = (
+				025E11FD1E9FB2AA00E3548E /* HowlTabBar */,
+				025E11FC1E9FB2AA00E3548E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025E11FC1E9FB2AA00E3548E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025E11FB1E9FB2AA00E3548E /* HowlTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025E11FD1E9FB2AA00E3548E /* HowlTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				025E11FE1E9FB2AA00E3548E /* AppDelegate.swift */,
+				025E12001E9FB2AA00E3548E /* ViewController.swift */,
+				025E12021E9FB2AA00E3548E /* Main.storyboard */,
+				025E12051E9FB2AA00E3548E /* Assets.xcassets */,
+				025E12071E9FB2AA00E3548E /* LaunchScreen.storyboard */,
+				025E120A1E9FB2AA00E3548E /* Info.plist */,
+				021095751EA0934A00B91226 /* AnimUtils.swift */,
+			);
+			path = HowlTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025E11FA1E9FB2AA00E3548E /* HowlTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025E120D1E9FB2AA00E3548E /* Build configuration list for PBXNativeTarget "HowlTabBar" */;
+			buildPhases = (
+				025E11F71E9FB2AA00E3548E /* Sources */,
+				025E11F81E9FB2AA00E3548E /* Frameworks */,
+				025E11F91E9FB2AA00E3548E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowlTabBar;
+			productName = HowlTabBar;
+			productReference = 025E11FB1E9FB2AA00E3548E /* HowlTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025E11F31E9FB2AA00E3548E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = swift;
+				TargetAttributes = {
+					025E11FA1E9FB2AA00E3548E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 025E11F61E9FB2AA00E3548E /* Build configuration list for PBXProject "HowlTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025E11F21E9FB2AA00E3548E;
+			productRefGroup = 025E11FC1E9FB2AA00E3548E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025E11FA1E9FB2AA00E3548E /* HowlTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025E11F91E9FB2AA00E3548E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025E12091E9FB2AA00E3548E /* LaunchScreen.storyboard in Resources */,
+				025E12061E9FB2AA00E3548E /* Assets.xcassets in Resources */,
+				025E12041E9FB2AA00E3548E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025E11F71E9FB2AA00E3548E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021095761EA0934A00B91226 /* AnimUtils.swift in Sources */,
+				025E12011E9FB2AA00E3548E /* ViewController.swift in Sources */,
+				025E11FF1E9FB2AA00E3548E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		025E12021E9FB2AA00E3548E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025E12031E9FB2AA00E3548E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		025E12071E9FB2AA00E3548E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025E12081E9FB2AA00E3548E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025E120B1E9FB2AA00E3548E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025E120C1E9FB2AA00E3548E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025E120E1E9FB2AA00E3548E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HowlTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.HowlTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		025E120F1E9FB2AA00E3548E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HowlTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.HowlTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025E11F61E9FB2AA00E3548E /* Build configuration list for PBXProject "HowlTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025E120B1E9FB2AA00E3548E /* Debug */,
+				025E120C1E9FB2AA00E3548E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025E120D1E9FB2AA00E3548E /* Build configuration list for PBXNativeTarget "HowlTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025E120E1E9FB2AA00E3548E /* Debug */,
+				025E120F1E9FB2AA00E3548E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025E11F31E9FB2AA00E3548E /* Project object */;
+}
